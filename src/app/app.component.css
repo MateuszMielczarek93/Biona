@@ -1,0 +1,26 @@
+#goldBarGold{
+    
+    display: block;
+    text-align: center;
+}
+
+#divEarth{
+
+    display: flex;
+
+}
+#earth_img{
+margin-top: 40px;
+margin-left: 10px;
+border-radius: 50%;
+max-width: 20%;
+
+
+
+}
+#earthProgress{
+    width: 50%;
+    position: relative;
+
+    margin-top: 100px;
+}
