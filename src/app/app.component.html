@@ -12,10 +12,19 @@
 <mat-progress-bar id = "earthProgress" mode="determinate" value="40"></mat-progress-bar>
 <p class="EarthBarLevelShown"></p>
 
-<button id="upgradeEarthButton" (click)="ugradeEarth()">
+<button id="upgradeEarthButton" (click)="upgradeEarth()">
     <p>Upgrade</p>
-    Level: {{earthLevel}}
+    <p>Level: {{earthLevel}}</p>
+       Cost: {{earthUpgradeCost}}
+
 </button>
+<button id="upgradeEarthButton" (click)="upgradeEarthIdle()">
+    <p>Idle</p>
+    <p>Level: {{earthLevel}}</p>
+       Cost: {{earthUpgradeCost}}
+
+</button>
+
 
 </div>
 
